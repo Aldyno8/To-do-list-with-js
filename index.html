@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="body"></div>
+
+    <div class="center">
+      <div class="container">
+        <div class="head">
+          To do list
+          <button id="new">New</button>
+        </div>
+
+        <div class="list_container" id = "list">
+
+        </div>
+      </div>
+    </div>
+
+      <form id="formTask">
+        <input type="text" placeholder="Nom de la tâche" id="nom" />
+        <input type="text" placeholder="Description" id="description" />
+        <input type="datetime-local" id="date" />
+        <input type="submit" value="Register" />
+      </form>
+
+  </body>
+</html>

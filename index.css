@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #010128;
+    overflow: hidden;
+    color: white !important;
+    
+
+}
+
+#body{
+    z-index: 1;
+    width:100% ;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    display: none;
+    opacity: 50%;
+    
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+height: 500px;
+width: 300px;
+border-radius: 20px;
+background-color: rgb(11, 16, 87);
+
+
+}
+
+.head{
+    height: 50px;
+    background-color: #7a7acf7d;
+    border-radius: 20px 20px 0px 0px ;
+    margin: 0;
+    padding:05px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+p{
+    background-color: #0d0dd07d;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom:-10px ;
+}
+
+
+#formTask{
+    z-index: 2;
+    background-color: rgb(11, 16, 87);
+    width: 300px;
+    height: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+    position: relative;
+    left: 521px;
+    bottom: 500px;
+
+}
+
+input{
+    border-radius: 20px;
+    margin: 5px;
+    width: 250px;
+    height: 30px;
+}
+
+input[type='submit']{
+    height: max-content;
+    width: max-content;
+    padding: 10px;
+    background-color: #9a9ad27d;
+}
+
+button{
+    background-color: transparent;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
